@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Recursion_PPT1
 {
@@ -57,6 +55,8 @@ namespace Recursion_PPT1
             if (nth == 2) return t2;
             return Fibonacci_Recursive(nth - 1) + Fibonacci_Recursive(nth - 2);
         }
+
+        private const string V = "Hello";
         #endregion
 
         #region Nested loop
@@ -90,7 +90,7 @@ namespace Recursion_PPT1
 
         #region Subset of a set
 
-        static readonly string set = "Hello";
+        public const string SAMPLE_SET = "Hello";
 
         #endregion
 
